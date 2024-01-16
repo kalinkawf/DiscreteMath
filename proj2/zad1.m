@@ -22,10 +22,10 @@ G = [
     0 0 0 0 0 1 1 0 0
 ];
 
-fprintf('WYPISYWANIE DFS\n\n\n\n')
+fprintf('WYPISYWANIE DFS\n')
 % Wywołanie funkcji dfs
 odwiedzone = dfs(G, a);
 
-fprintf('WYPISYWANIE BFS\n\n\n\n')
+fprintf('WYPISYWANIE BFS\n')
 % Wywołanie funkcji bfs
 odwiedzone = bfs(G, a);
